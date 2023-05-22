@@ -1,0 +1,342 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-left: auto; */
+  margin-right: auto;
+}
+.logo {
+  margin-left: 10%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.middle-items {
+  display: flex;
+  align-items: center;
+  margin-right: 20%;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items li {
+  font-size: 20px;
+  margin: 0px 20px;
+}
+
+.fa-regular.fa-circle-play {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+button {
+  color: white;
+  background-color: blue;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0px 0px 0px 50px;
+}
+.black-page {
+  background-color: black;
+  padding: 10% 20% 10% 10%;
+  color: white;
+}
+.black-page h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+.black-page p {
+  font-size: 20px;
+}
+.pf-conent {
+  position: relative;
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.pf-conent img {
+  justify-self: end;
+  border-radius: 100%;
+}
+.icon-h3 {
+  position: absolute;
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  top: 50%;
+  left: 10%;
+}
+.white-page {
+  justify-content: center;
+  align-items: center;
+  padding: 10% 20% 10% 20%;
+}
+
+.big-img img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: yellow;
+}
+.white-p-description {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.white-p-description h1 {
+  font-size: 50px;
+}
+.white-p-description p {
+  font-size: 20px;
+}
+.big-img-1 img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: aquamarine;
+}
+.big-img-2 img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: purple;
+}
+.services {
+  background-color: black;
+  color: white;
+  padding: 10% 20%;
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-rows: 1fr 1fr;
+  gap: 5rem;
+  height: 900px;
+}
+.service-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+.service-button {
+  color: white;
+  background-color: blue;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 0;
+  margin-top: 30px;
+}
+.demand-page {
+  padding: 10% 20%;
+  display: grid;
+  grid-template-columns: 300px auto;
+  gap: 10rem;
+}
+.demand-page img {
+  position: absolute;
+  right: 70px;
+}
+.founnder {
+  padding: 10% 20%;
+}
+.founnder h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.founnder p {
+  margin-bottom: 30px;
+}
+.user-1 {
+  display: flex;
+  gap: 2px;
+}
+.arrow-img img {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.who-we-are {
+  padding: 10% 20%;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 10rem;
+}
+.dercript h1 {
+  font-size: 50px;
+  margin-bottom: 5rem;
+}
+.dercript h2 {
+  margin: 2rem 0;
+}
+.dercript-imag img {
+  margin-bottom: 30px;
+}
+.dercript-imag p {
+  margin-bottom: 30px;
+}
+.dercript-imag button {
+  margin: 0;
+}
+.cinnamon-college {
+  display: flex;
+  height: 250px;
+  margin-bottom: 5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 10rem;
+}
+
+.paragraph-p {
+  font-size: 20px;
+}
+.cinnamon-college button {
+  margin-left: 0;
+  margin-top: 7rem;
+}
+.paragraph-p {
+  width: 400px;
+}
+.college-img2 {
+  position: absolute;
+  height: 328px;
+  right: 20px;
+}
+.growing-page {
+  background-color: black;
+  color: white;
+  padding-left: 10%;
+  padding-right: 15%;
+  height: 500px;
+  display: flex;
+  gap: 10rem;
+}
+.growing-descri {
+  margin-top: 10rem;
+  height: 200px;
+  width: 500px;
+}
+.growing-descri button {
+  margin-top: 2rem;
+  margin-left: 0;
+}
+.growing-descri p {
+  margin-top: 2rem;
+}
+
+.growing-descri-1 {
+  margin-top: 10rem;
+  height: 200px;
+  width: 500px;
+}
+.growing-descri-1 h2 {
+  margin-bottom: 3rem;
+}
+.office-page {
+  padding: 10rem;
+  padding-bottom: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+.office-header {
+  padding-left: 10rem;
+  padding-top: 4rem;
+  font-size: 70px;
+}
+.office-page h2,
+h3 {
+  margin-top: 10px;
+}
+.unshade img {
+  padding-left: 10rem;
+}
+.loop-page {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.loop-imagess {
+  display: flex;
+  gap: 2rem;
+}
+.loop-imagess h2 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.loop-imagess-h4 {
+  text-decoration: underline;
+}
+
+.loop-page h1 {
+  padding: 5rem 0;
+  font-size: 70px;
+}
+.loop-imagess-1 {
+  flex: 1 0 45%;
+  margin-bottom: 20px;
+}
+
+.loop-imagess-1 img {
+  max-width: 100%;
+  height: auto;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10%;
+}
+.contact-us h1 {
+  font-size: 60px;
+}
+.contact-us button {
+  margin-top: 40px;
+}
+.footer-page {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 10%;
+  gap: 20rem;
+}
+
+.footer-page h1 {
+  padding-bottom: 5rem;
+}
+.footer-1 h2 {
+  padding-bottom: 10px;
+}
+.footer-1-last {
+  padding-top: 10rem;
+}
+.footer-2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 5rem;
+}
+
+.footer-2 h1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.footer-2 .f-1,
+.footer-2 .f-2,
+.footer-2 .f-3 {
+  grid-row: 2;
+}
