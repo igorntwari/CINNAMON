@@ -12,12 +12,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  /* position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  margin-left: auto; */
   margin-right: auto;
+  top: 0;
+  z-index: 1000;
+  position: sticky;
 }
 .logo {
   margin-left: 10%;
